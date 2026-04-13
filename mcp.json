@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "e_hana_mcp_server": {
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/code/server.py"
+      ],
+      "env": {
+        "HANA_ADDRESS": "localhost",
+        "HANA_PORT": "39015",
+        "HANA_USER": "SYSTEM",
+        "HANA_PASSWORD": "[PASSWORD]",
+        "HANA_SYSTEMS": "DEV|dev-host|39015|DEV_USER|dev_pass,QA|qa-host|39015|QA_USER|qa_pass"
+      }
+    }
+  }
+}

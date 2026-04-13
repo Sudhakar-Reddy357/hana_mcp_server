@@ -1,0 +1,5 @@
+mcp>=1.26.0
+hdbcli>=2.27.23
+uvicorn>=0.34.0
+starlette>=0.46.0
+pydantic>=2.0.0
